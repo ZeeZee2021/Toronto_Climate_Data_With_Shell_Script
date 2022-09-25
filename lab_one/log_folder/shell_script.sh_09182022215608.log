@@ -1,0 +1,57 @@
+Start download data
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-18 21:56:08--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2020.csv’
+
+     0K .......... .......... .......... .......... ..........  844K
+    50K .......... .......... .......... .......... .......... 2.51M
+   100K .......... .......... .......                          12.3M=0.08s
+
+2022-09-18 21:56:09 (1.54 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2020.csv’ saved [130712]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-18 21:56:09--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  775K
+    50K .......... .......... .......... .......... .......... 2.58M
+   100K .......... .......... ...                               191M=0.08s
+
+2022-09-18 21:56:10 (1.45 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2021.csv’ saved [126714]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-18 21:56:10--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2022.csv’
+
+     0K .......... .......... .......... .......... .......... 1.07M
+    50K .......... .......... .......... .......... .......... 1.11M
+   100K .......... .......... ...                               187M=0.09s
+
+2022-09-18 21:56:11 (1.35 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2022.csv’ saved [126636]
+
+Start to run Python Script
+  File "/home/zainab/weekone/lab_one/script_folder/python_script.py", line 1
+    !#/usr/bin python3
+    ^
+SyntaxError: invalid syntax
+PYTHON RUNNING FAILED
+[ERROR:] RETURN CODE:  1
+[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE.

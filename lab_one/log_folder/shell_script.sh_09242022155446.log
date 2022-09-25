@@ -1,0 +1,63 @@
+Start download data
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-24 15:54:46--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2020.csv’
+
+     0K .......... .......... .......... .......... .......... 1.02M
+    50K .......... .......... .......... .......... ..........  709K
+   100K .......... .......... .......                           202M=0.1s
+
+2022-09-24 15:54:48 (1.05 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2020.csv’ saved [130712]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-24 15:54:48--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  700K
+    50K .......... .......... .......... .......... .......... 2.70M
+   100K .......... .......... ...                              1.55M=0.1s
+
+2022-09-24 15:54:49 (1.16 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2021.csv’ saved [126714]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-24 15:54:49--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2022.csv’
+
+     0K .......... .......... .......... .......... ..........  843K
+    50K .......... .......... .......... .......... .......... 2.49M
+   100K .......... .......... ...                              8.92M=0.08s
+
+2022-09-24 15:54:50 (1.48 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2022.csv’ saved [126636]
+
+Start to run Python Script
+Traceback (most recent call last):
+  File "/home/zainab/weekone/lab_one/script_folder/python_script.py", line 18, in <module>
+    df_concat = pd.concat(li, axis=0, ignore_index=True)
+  File "/home/zainab/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zainab/.local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 347, in concat
+    op = _Concatenator(
+  File "/home/zainab/.local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 404, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+PYTHON RUNNING FAILED
+[ERROR:] RETURN CODE:  1
+[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE.

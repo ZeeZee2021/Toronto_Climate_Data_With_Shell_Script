@@ -1,0 +1,57 @@
+Start download data
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-18 22:17:56--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2020.csv’
+
+     0K .......... .......... .......... .......... ..........  759K
+    50K .......... .......... .......... .......... .......... 1.01M
+   100K .......... .......... .......                          1.62M=0.1s
+
+2022-09-18 22:18:00 (974 KB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2020.csv’ saved [130712]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-18 22:18:00--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  805K
+    50K .......... .......... .......... .......... .......... 2.97M
+   100K .......... .......... ...                              8.87M=0.08s
+
+2022-09-18 22:18:01 (1.49 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2021.csv’ saved [126714]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-09-18 22:18:01--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/zainab/weekone/lab_one/input_folder/2022.csv’
+
+     0K .......... .......... .......... .......... ..........  914K
+    50K .......... .......... .......... .......... .......... 2.93M
+   100K .......... .......... ...                               115M=0.07s
+
+2022-09-18 22:18:02 (1.69 MB/s) - ‘/home/zainab/weekone/lab_one/input_folder/2022.csv’ saved [126636]
+
+Start to run Python Script
+Traceback (most recent call last):
+  File "/home/zainab/weekone/lab_one/script_folder/python_script.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+PYTHON RUNNING FAILED
+[ERROR:] RETURN CODE:  1
+[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE.
